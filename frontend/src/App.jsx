@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './common/Navbar';
 import Section01 from './pages/Home/Section01';
-// import Section02 from './pages/Home/Section02';
+import Section02 from './pages/Home/Section02';
 import Section03 from './pages/Home/Section03';
 import FAQSection from './pages/Home/Faq';
 import TrekOfTheYear from './pages/Home/TrekOftheYear';
@@ -31,7 +31,7 @@ function App() {
             <>
             <Banner />
               <Section01 />
-              {/* <Section02 /> */}
+              <Section02 />
               <Section03 />
               <FAQSection />
               <TrekOfTheYear />

@@ -1,10 +1,10 @@
 import React from 'react';
-import eco from "../../assets/eco.jpg";
-import two from "../../assets/fe.jpeg";
-import firstAid from "../../assets/firstAid.jpg";
-import slide1 from "../../assets/slide1.jpg";
-import slide2 from "../../assets/slide2.jpg";
-import slide3 from "../../assets/slide3.jpg";
+import eco from "/assets/eco.jpg";
+import two from "/assets/fe.jpeg";
+import firstAid from "/assets/firstAid.jpg";
+import slide1 from "/assets/slide1.jpg";
+import slide2 from "/assets/slide2.jpg";
+import slide3 from "/assets/slide3.jpg";
 
 const WhyChooseUs = () => {
   return (

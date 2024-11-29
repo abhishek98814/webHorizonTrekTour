@@ -1,8 +1,8 @@
 import React from 'react';
-import destination1 from "../../assets/slide1.jpg";
-import destination2 from "../../assets/slide2.jpg";
-import destination3 from "../../assets/slide3.jpg";
-import destination4 from '../../assets/everest4.jpg'
+import destination1 from "/assets/slide1.jpg";
+import destination2 from "/assets/slide2.jpg";
+import destination3 from "/assets/slide3.jpg";
+import destination4 from '/assets/everest4.jpg'
 
 const DestinationSection = () => {
   const destinations = [

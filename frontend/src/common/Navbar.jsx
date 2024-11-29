@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import trekIcons from "../assets/trekIcons.png";
+import trekIcons from "/assets/trekIcons.png";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { FaBars, FaTimes } from 'react-icons/fa'; 
-import userIcons from "../assets/userIcons.png";
 import { Link } from 'react-router-dom';
 import Banner from '../pages/Home/Banner';
 

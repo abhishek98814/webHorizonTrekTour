@@ -2,9 +2,9 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import slide1 from "../../assets/slide1.jpg";
-import slide2 from "../../assets/slide2.jpg";
-import slide3 from "../../assets/slide3.jpg";
+import slide1 from "/assets/slide1.jpg";
+import slide2 from "/assets/slide2.jpg";
+import slide3 from "/assets/slide3.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const SwiperCarousel = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import trekImage from '../../assets/geg.jpeg';
+import trekImage from '/assets/geg.jpeg';
 
 const TrekOfTheYear = () => {
   return (

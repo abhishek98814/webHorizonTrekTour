@@ -1,4 +1,4 @@
-import everest4 from "../../assets/everest4.jpg";
+import everest4 from "/assets/everest4.jpg";
 import { Clock, Mountain, Users, MapPin, Scale, Sun } from 'lucide-react';
 import { fetchOverviewAsync } from "../../redux/overviewSlice.js";
 import { useSelector, useDispatch } from "react-redux";
