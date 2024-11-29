@@ -5,7 +5,7 @@ import Footer from './common/Footer';
 import PageNotFound from './common/PageNotFound';
 import TrekDetailsLayout from './pages/trekDetails/TrekDetailsLayout';
 // import Banner from "./pages/Home/Banner";
-// import LandingPageLayout from "./pages/Home/LandingPageLayout"
+import LandingPageLayout from "./pages/Home/LandingPageLayout"
 
 
 function App() {
