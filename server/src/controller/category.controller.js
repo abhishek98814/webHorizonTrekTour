@@ -9,11 +9,11 @@ const createCategory = async (req, res) => {
             return res.status(400).json({ message: "Country and category are required." });
         }
 
-        const chekCountry = Category.findOne(country);
+        // const chekCountry = Category.findOne(country);
 
-        if(chekCountry){
-            return res.json("Country is available")
-        }
+        // if(chekCountry){
+        //     return res.json("Country is available")
+        // }
 
         const newCategory = new Category({ country, category });
         const savedCategory = await newCategory.save();

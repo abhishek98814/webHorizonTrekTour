@@ -33,10 +33,10 @@ const overViewSchema = new Schema({
     type: String,
   },
   included: {
-    type: String,
+    type: [String],
   },
   excluded: {
-    type: String,
+    type: [String],
   },
   importantInformation: {
     type: String,

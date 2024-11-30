@@ -9,6 +9,7 @@ const Detail01 = () => {
   const [title, setTitle] = useState("");
   const dispatch = useDispatch();
   const { overviews, isLoading, error } = useSelector((state) => state.overview);
+  console.log(overviews, "overviews")
 
   useEffect(() => {
     dispatch(fetchOverviewAsync());
