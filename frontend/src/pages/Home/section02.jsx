@@ -2,6 +2,8 @@ const slide1 = "/assets/slide1.jpg";
 const slide2 = "/assets/slide2.jpg";
 const slide3 = "/assets/slide3.jpg";
 
+console.log(slide1, "slide1")
+
 const Section02 = () => {
   return (
     <div className="container mx-auto px-4 py-16">
